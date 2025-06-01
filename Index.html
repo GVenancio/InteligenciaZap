@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligência ZAP</title>
+    <link rel="icon" href="imagens/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="custom-navbar">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a href="#" class="d-flex align-items-center">
+          <img src="imagens/logo-header.svg" alt="Logo Inteligência ZAP"/>
+        </a>
+        <!-- Navegação Desktop -->
+        <nav class="d-none d-md-flex gap-4">
+          <a href="#home" class="nav-link-custom">Home</a>
+          <a href="#beneficios" class="nav-link-custom">Benefícios</a>
+          <a href="#planos" class="nav-link-custom">Planos</a>
+          <a href="#faq" class="nav-link-custom">Perguntas frequentes</a>
+        </nav>
+        <!-- Botão Menu Mobile -->
+        <button class="menu-toggle d-md-none" aria-label="Abrir menu">
+          <span class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+        <!-- Botão Desktop -->
+        <a href="#inicio" class="btn-custom d-none d-md-block">Comece Já</a>
+      </div>
+      <!-- Menu Mobile -->
+      <div class="mobile-menu d-md-none">
+        <a href="#home" class="nav-link-custom">Home</a>
+        <a href="#beneficios" class="nav-link-custom">Benefícios</a>
+        <a href="#planos" class="nav-link-custom">Planos</a>
+        <a href="#faq" class="nav-link-custom">Perguntas frequentes</a>
+        <a href="#inicio" class="btn-custom mt-2">Comece Já</a>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="hero-highlight-left">
+              <img src="imagens/home-1.svg" alt="" />
+            </span>
+            <span class="hero-main-text">
+              Aumente seu faturamento <br>
+              automatizando suas conversas <br>
+              no
+              <span class="hero-whatsapp-group">
+                <span class="hero-whatsapp">
+                  WhatsApp
+                  <span class="hero-highlight-right">
+                    <img src="imagens/home-2.svg" alt="" />
+                  </span>
+                  <span class="hero-underline">
+                    <img src="imagens/home-destaque.svg" alt="destaque WhatsApp" />
+                  </span>
+                </span>
+              </span>
+            </span>
+          </h1>
+          <p class="hero-subtitle">
+            Economize tempo, responda instantaneamente e aumente suas vendas com uma IA treinada para atender como você.
+          </p>
+        </div>
+        <div class="hero-image">
+          <img src="Imagens/conversa-whatsapp.svg" alt="Celular com conversa de IA">
+        </div>
+      </div>
+    </section>
+
+    <section id="beneficios" class="beneficios">
+      <div class="container">
+        <div class="beneficios-header">
+          <h2>Benefícios</h2>
+          <span class="underline-titulo"></span>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="imagens/beneficios-1.svg" alt="Atendimento 24/7" class="card-icon" />
+            <h3>Atendimento 24/7</h3>
+            <p>Nunca perca uma oportunidade fora do horário</p>
+          </div>
+          <div class="card">
+            <img src="imagens/beneficios-2.svg" alt="Respostas instantâneas" class="card-icon" />
+            <h3>Respostas instantâneas</h3>
+            <p>A IA responde em segundos, mantendo o cliente engajado</p>
+          </div>
+          <div class="card">
+            <img src="imagens/beneficios-3.svg" alt="Conversas personalizadas" class="card-icon" />
+            <h3>Conversas personalizadas</h3>
+            <p>A IA se adapta ao seu estilo de atendimento</p>
+          </div>
+          <div class="card">
+            <img src="imagens/beneficios-4.svg" alt="Mais vendas" class="card-icon" />
+            <h3>Mais vendas</h3>
+            <p>Conduz o cliente até a compra com mensagens certeiras</p>
+          </div>
+          <div class="card">
+            <img src="imagens/beneficios-5.svg" alt="Menos carga para sua equipe" class="card-icon" />
+            <h3>Menos carga para sua equipe</h3>
+            <p>Reduz a carga do time com automações inteligentes</p>
+          </div>
+          <div class="card">
+            <img src="imagens/beneficios-6.svg" alt="Fácil de configurar" class="card-icon" />
+            <h3>Fácil de configurar</h3>
+            <p>A integração é simples com o seu número atual</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="planos" class="planos">
+      <div class="container">
+        <div class="planos-header">
+          <h2>Planos</h2>
+          <span class="underline-titulo"></span>
+        </div>
+        <div class="planos-boxes">
+          <div class="plano-card">
+            <span class="plano-tag">Profissional</span>
+            <div class="plano-preco">
+              <span class="plano-moeda">R$</span>
+              <span class="plano-valor">49,00</span>
+              <span class="plano-mes">/mês</span>
+            </div>
+            <ul class="plano-descricao">
+              <li><img src="imagens/checkbox.svg" alt="ok"> <strong>1 celular conectado</strong></li>
+              <li><img src="imagens/checkbox.svg" alt="ok"> <strong>Mensagens ilimitadas</strong></li>
+              <li><img src="imagens/checkbox.svg" alt="ok"> <strong>Envio de: Textos, Áudios, Imagens e Vídeos</strong></li>
+              <li><img src="imagens/checkbox.svg" alt="ok"> <strong>Até 200 mensagens automáticas/mês</strong></li>
+              <li><img src="imagens/checkbox.svg" alt="ok"> <strong>Suporte on-line</strong></li>
+              <li><img src="imagens/checkbox.svg" alt="ok"> <strong>Disparo de mensagens em massa</strong></li>
+            </ul>
+            <a href="#" class="btn-adquirir">Adquirir agora</a>
+          </div>
+          <div class="plano-card">
+            <span class="plano-tag">Profissional</span>
+            <div class="plano-preco">
+              <span class="plano-moeda">R$</span>
+              <span class="plano-valor">49,00</span>
+              <span class="plano-mes">/mês</span>
+            </div>
+            <ul class="plano-descricao">
+              <li><img src="imagens/checkbox.svg" alt="ok"> <strong>1 celular conectado</strong></li>
+              <li><img src="imagens/checkbox.svg" alt="ok"> <strong>Mensagens ilimitadas</strong></li>
+              <li><img src="imagens/checkbox.svg" alt="ok"> <strong>Envio de: Textos, Áudios, Imagens e Vídeos</strong></li>
+              <li><img src="imagens/checkbox.svg" alt="ok"> <strong>Até 200 mensagens automáticas/mês</strong></li>
+              <li><img src="imagens/checkbox.svg" alt="ok"> <strong>Suporte on-line</strong></li>
+              <li><img src="imagens/checkbox.svg" alt="ok"> <strong>Disparo de mensagens em massa</strong></li>
+            </ul>
+            <a href="#" class="btn-adquirir">Adquirir agora</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="container">
+        <div class="faq-header">
+          <h2>Perguntas Frequentes</h2>
+          <span class="underline-titulo"></span>
+        </div>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Preciso instalar algum aplicativo?
+              <span class="accordion-arrow">
+                <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg>
+              </span>
+            </button>
+            <div class="accordion-body">Não. Tudo funciona online sem necessidade de instalar nada.</div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Ela funciona no WhatsApp normal ou só no Business?
+              <span class="accordion-arrow">
+                <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg>
+              </span>
+            </button>
+            <div class="accordion-body">Funciona em ambos, você escolhe onde quer conectar.</div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Consigo treinar a IA com meu próprio conteúdo?
+              <span class="accordion-arrow">
+                <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg>
+              </span>
+            </button>
+            <div class="accordion-body">Sim! A IA aprende com o que você ensinar.</div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              A IA responde sozinha?
+              <span class="accordion-arrow">
+                <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg>
+              </span>
+            </button>
+            <div class="accordion-body">Sim. Ela entende o que o cliente pergunta e responde automaticamente com base nas informações que você treinar.</div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Posso acompanhar as conversas?
+              <span class="accordion-arrow">
+                <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg>
+              </span>
+            </button>
+            <div class="accordion-body">Sim. Você pode ver todos os históricos de conversas em tempo real.</div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              É seguro usar a Inteligência ZAP?
+              <span class="accordion-arrow">
+                <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg>
+              </span>
+            </button>
+            <div class="accordion-body">Sim. Seus dados estão protegidos com criptografia e servidores seguros.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-logo">
+          <img src="imagens/logo-branco.svg" alt="Inteligência ZAP" />
+        </div>
+        <div class="footer-section">
+          <h4>Páginas</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#faq">Perguntas frequentes</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contato</h4>
+          <a class="footer-contact" href="mailto:contato@inteligenciazap.com.br">
+            <i class="bi bi-envelope-fill"></i> contato@inteligenciazap.com.br
+          </a>
+          <a class="footer-contact" href="https://wa.me/554333333333" target="_blank">
+            <i class="bi bi-telephone-fill"></i> (43) 3333-3333
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Inteligência ZAP – Todos os direitos reservados.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
